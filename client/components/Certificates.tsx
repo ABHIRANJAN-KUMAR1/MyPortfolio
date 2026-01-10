@@ -23,7 +23,7 @@ export default function Certificates({ isDark }: CertificatesProps) {
       title: 'Oracle Cloud Infrastructure 2025 Certified Generative AI Professional',
       image: '/certificates/Oracle.pdf',
       issuer: 'Oracle University',
-      date: 'September 16, 2025',
+      
     },
     {
       id: 2,
@@ -48,6 +48,12 @@ export default function Certificates({ isDark }: CertificatesProps) {
       title: 'MultiCloud Network Associate',
       image: '/certificates/Aviatrix.pdf',
       issuer: 'Aviatrix',
+    },
+    {
+      id: 6,
+      title: 'Certified Essentials Automation Professional',
+      image: '/certificates/AutomationAnywhere.pdf',
+      issuer: 'Automation Anywhere',
     },
   ];
 
