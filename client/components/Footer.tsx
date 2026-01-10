@@ -53,7 +53,7 @@ export default function Footer({ isDark }: FooterProps) {
             >
               LinkedIn
             </a>
-            <a
+            {/* <a
               href="https://twitter.com"
               target="_blank"
               rel="noopener noreferrer"
@@ -61,7 +61,7 @@ export default function Footer({ isDark }: FooterProps) {
               aria-label="Twitter"
             >
               Twitter
-            </a>
+            </a> */}
           </div>
         </motion.div>
 

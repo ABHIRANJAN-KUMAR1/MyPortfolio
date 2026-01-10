@@ -96,12 +96,12 @@ export default function Contact({ isDark }: ContactProps) {
       value: 'abhiranjansinghsci@gmail.com',
       href: 'mailto:abhiranjansinghsci@gmail.com',
     },
-    {
-      icon: <Phone size={24} />,
-      label: 'Phone',
-      value: '9304159633',
-      href: 'tel:9304159633',
-    },
+    // {
+    //   icon: <Phone size={24} />,
+    //   label: 'Phone',
+    //   value: '9304159633',
+    //   href: 'tel:9304159633',
+    // },
     {
       icon: <MapPin size={24} />,
       label: 'Location',
@@ -119,10 +119,10 @@ export default function Contact({ isDark }: ContactProps) {
       label: 'LinkedIn',
       href: 'https://www.linkedin.com/in/abhiranjan-kumar-b65478358',
     },
-    {
-      label: 'Twitter',
-      href: 'https://twitter.com',
-    },
+    // {
+    //   label: 'Twitter',
+    //   href: 'https://twitter.com',
+    // },
   ];
 
   return (
