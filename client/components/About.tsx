@@ -127,7 +127,7 @@ export default function About({ isDark }: AboutProps) {
                     isDark ? 'text-gray-400' : 'text-gray-600'
                   }`}
                 >
-                  Computer Science & Engineering<h3>(Honours with Experiential Learning)</h3>
+                  Computer Science & Engineering <span className="font-semibold">(Honours with Experiential Learning)</span>
                 </p>
                 <p
                   className={`text-sm ${
