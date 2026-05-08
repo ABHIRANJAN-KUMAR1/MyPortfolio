@@ -32,7 +32,7 @@ export default function Projects({ isDark }: ProjectsProps) {
       title: 'LibrarySystem',
       description:
       'A digital library management system that allows users to manage books, issue and return records, member details, and library inventory efficiently. The system provides features for book searching, availability tracking, and maintaining student or user borrowing history.',
-      image: 'LibratyPic.png',
+      image: '/LibraryPic.png',
       technologies: ['React', 'Firebase', 'Tailwind CSS', 'Redux'],
       githubLink: 'https://github.com/ABHIRANJAN-KUMAR1/LibrarySystem',
       liveLink: 'https://abhiranjansingh.pythonanywhere.com/',

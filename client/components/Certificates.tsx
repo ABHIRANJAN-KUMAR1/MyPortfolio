@@ -28,7 +28,7 @@ export default function Certificates({ isDark }: CertificatesProps) {
     {
       id: 2,
       title: 'Introduction to Machine Learning',
-      image: '/certificates/Machine%20Learning%20certificate.pdf',
+      image: '/certificates/Machine-Learning-certificate.pdf',
       issuer: 'IIT Madras',
     },
     {
@@ -40,7 +40,7 @@ export default function Certificates({ isDark }: CertificatesProps) {
     {
       id: 4,
       title: 'GitHub Copilot Fundamentals',
-      image: '/certificates/Github%20Copilot%20certificate.pdf',
+      image: '/certificates/Github-Copilot-certificate.pdf',
       issuer: 'Microsoft',
     },
     {
