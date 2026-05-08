@@ -25,7 +25,7 @@ export default function Skills({ isDark }: SkillsProps) {
     {
       category: 'Backend',
       icon: <Server size={28} />,
-      skills: ['Python', 'Flask', 'Django', 'MySQL', 'REST APIs', 'Express.js'],
+      skills: ['Python', 'Flask', 'Django', 'MySQL', 'REST APIs', 'Express.js','spring boot'],
       color: isDark ? 'text-purple-400' : 'text-purple-600',
       bgColor: isDark ? 'bg-purple-500/20' : 'bg-purple-100',
     },

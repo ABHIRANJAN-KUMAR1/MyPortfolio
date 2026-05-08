@@ -19,33 +19,23 @@ export default function Projects({ isDark }: ProjectsProps) {
   const projects: Project[] = [
     {
       id: 1,
-      title: 'E-Commerce Platform',
+      title: 'organizing-and-managing-student-extracurricular-activities',
       description:
-        'A full-stack e-commerce platform with product catalog, shopping cart, and secure checkout. Features include user authentication, product filtering, and order management.',
-      image: '/placeholder.svg',
+        'A web-based system designed to organize and manage student extracurricular activities efficiently. The platform helps students and administrators handle event registration, activity scheduling, participation tracking, announcements, and club management in a centralized system.',
+      image: '/organizing-and-managing.png',
       technologies: ['React', 'Node.js', 'MongoDB', 'Stripe'],
-      githubLink: 'https://github.com/ABHIRANJAN-KUMAR1',
-      liveLink: 'https://ecommerce-demo.com',
+      githubLink: 'https://github.com/ABHIRANJAN-KUMAR1/organizingAndManagingStudentExtracurricularActivities/tree/main/organizing-and-managing-student-extracurricular-activities-main',
+      liveLink: 'https://frontend-sem-2-fsad-ftyf.vercel.app/',
     },
     {
       id: 2,
-      title: 'Task Management App',
+      title: 'LibrarySystem',
       description:
-        'A collaborative task management application with real-time updates, team collaboration, and progress tracking. Built with React for responsive UI and Firebase for backend.',
-      image: '/placeholder.svg',
+      'A digital library management system that allows users to manage books, issue and return records, member details, and library inventory efficiently. The system provides features for book searching, availability tracking, and maintaining student or user borrowing history.',
+      image: 'LibratyPic.png',
       technologies: ['React', 'Firebase', 'Tailwind CSS', 'Redux'],
-      githubLink: 'https://github.com/ABHIRANJAN-KUMAR1',
-      liveLink: 'https://tasks-app-demo.com',
-    },
-    {
-      id: 3,
-      title: 'Weather Forecast App',
-      description:
-        'A weather application providing real-time weather data with an intuitive interface. Features include location search, 7-day forecast, and weather alerts notification system.',
-      image: '/placeholder.svg',
-      technologies: ['React', 'OpenWeather API', 'Tailwind CSS', 'Axios'],
-      githubLink: 'https://github.com/ABHIRANJAN-KUMAR1',
-      liveLink: 'https://weather-app-demo.com',
+      githubLink: 'https://github.com/ABHIRANJAN-KUMAR1/LibrarySystem',
+      liveLink: 'https://abhiranjansingh.pythonanywhere.com/',
     },
   ];
 
